@@ -1,0 +1,6 @@
+Program test;
+begin
+
+write('My First Script');
+
+end.

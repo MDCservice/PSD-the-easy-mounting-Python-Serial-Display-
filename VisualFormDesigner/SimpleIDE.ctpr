@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="SimpleIDE"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|frm|ppr|lrs|ctpr|ctpkg|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T &apos;Typhon Run Output&apos; -e $(TyphonDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T &apos;Typhon Run Output&apos; -e $(TyphonDir)\tools\runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="pl_titanscript"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="bs_SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="adLCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="119">
+      <Unit0>
+        <Filename Value="SimpleIDE.ppr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="12"/>
+        <UsageCount Value="28"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="simpleidemw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Simpleidemw"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="121"/>
+        <CursorPos X="12" Y="156"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\source\TitanScripterBaseEngine.pas"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\source\IMP_ActiveX.pas"/>
+        <TopLine Value="225"/>
+        <CursorPos X="46" Y="249"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\source\QStrings.pas"/>
+        <TopLine Value="3300"/>
+        <CursorPos X="20" Y="3324"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\source\BASE_RegExpr.pas"/>
+        <CursorPos X="18"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\source\Titan_PascalRegFunctions.pas"/>
+        <CursorPos X="17" Y="19"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\source\AllTitanScripterRegister.pas"/>
+        <CursorPos X="26" Y="14"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\source\TitanScript.inf"/>
+        <CursorPos X="7" Y="2"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\source\TitanScripter.pas"/>
+        <CursorPos X="50" Y="16"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\source\BASE_SYS.pas"/>
+        <TopLine Value="962"/>
+        <CursorPos X="3" Y="992"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\source\BASE_SYNC.pas"/>
+        <TopLine Value="14"/>
+        <CursorPos X="12" Y="21"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\source\Base_tScripter.pas"/>
+        <CursorPos X="49" Y="11"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\source\BASE_SCANNER.pas"/>
+        <TopLine Value="121"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\source\BASE_PARSER.pas"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\source\BASE_SYMBOL.pas"/>
+        <CursorPos X="23" Y="6"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\source\BASE_CLASS.pas"/>
+        <CursorPos Y="12"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\source\BASE_EXTERN.pas"/>
+        <TopLine Value="5692"/>
+        <CursorPos X="14" Y="19"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\source\BASE_CONV.pas"/>
+        <CursorPos X="10" Y="7"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\source\BASE_DLL.pas"/>
+        <TopLine Value="14"/>
+        <CursorPos X="14" Y="14"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\source\BASE_CODE.pas"/>
+        <CursorPos X="10" Y="7"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\source\BASE_CALL.pas"/>
+        <CursorPos X="10" Y="7"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\source\BASE_EVENT.pas"/>
+        <CursorPos X="2" Y="8"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\source\BASE_DFM.pas"/>
+        <CursorPos X="19" Y="13"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\source\PASCAL_PARSER.pas"/>
+        <CursorPos X="10" Y="7"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\source\Titan_JAVASCRIPT.pas"/>
+        <UnitName Value="titan_JAVASCRIPT"/>
+        <TopLine Value="2722"/>
+        <CursorPos X="10" Y="7"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\source\Titan_RTTI.pas"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\source\Titan_PascalLanguage.pas"/>
+        <CursorPos X="17" Y="16"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\source\Titan_PascalScanner.pas"/>
+        <CursorPos X="31" Y="17"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\source\Titan_Dfm.pas"/>
+        <CursorPos X="10" Y="7"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\source\BASE_Lists.pas"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\source\BASE_REGEXP.pas"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\source\Titan_Debug.pas"/>
+        <TopLine Value="138"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\source\Titan_Import.pas"/>
+        <TopLine Value="29"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\source\TitanScripterBaseEngineMsg.pas"/>
+        <CursorPos X="32"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\source\BASE_CONSTS.pas"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\pl_TitanScript.pas"/>
+        <UsageCount Value="10"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\source\Base_tScripter_Class.inc"/>
+        <CursorPos X="47" Y="8"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\source\Base_tScripter_Class_imp.inc"/>
+        <TopLine Value="4103"/>
+        <CursorPos X="63" Y="4133"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\source\Base_tScripter_Code.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\source\Base_tScripter_Code_imp.inc"/>
+        <TopLine Value="5634"/>
+        <CursorPos X="51" Y="5652"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\source\Base_tScripter_Conv.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\source\Base_tScripter_Conv_imp.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\source\Base_tScripter_Event.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\source\Base_tScripter_Event_imp.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\source\Base_tScripter_Extern.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\source\Base_tScripter_Extern_imp.inc"/>
+        <TopLine Value="1850"/>
+        <CursorPos X="6" Y="1868"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\source\Base_tScripter_JavaScript.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\source\Base_tScripter_JavaScript_imp.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\source\Base_tScripter_Parser.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\source\Base_tScripter_Parser_imp.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\source\Base_tScripter_RegExp.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\source\Base_tScripter_RegExp_imp.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="..\source\Base_tScripter_Symbol_imp.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\source\Base_tScripter_PascalParser.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\source\Base_tScripter_PascalParser_imp.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="Unit1.frm"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="FRM"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\source\TitanScript.inc"/>
+        <SyntaxHighlighter Value="Delphi"/>
+        <UsageCount Value="10"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="D:\pp\rtl\win\sysutils.pp"/>
+        <TopLine Value="45"/>
+        <UsageCount Value="10"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="D:\lcl\fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <TopLine Value="39"/>
+        <CursorPos X="10" Y="73"/>
+        <UsageCount Value="10"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Titan_PascalLanguage.pas"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="10"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Titan_Import.pas"/>
+        <TopLine Value="9"/>
+        <UsageCount Value="10"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\BASE_SYS.pas"/>
+        <TopLine Value="1980"/>
+        <CursorPos X="8" Y="2089"/>
+        <UsageCount Value="10"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\BASE_CALL.pas"/>
+        <TopLine Value="760"/>
+        <CursorPos Y="783"/>
+        <UsageCount Value="10"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter.pas"/>
+        <TopLine Value="2944"/>
+        <CursorPos X="15" Y="2967"/>
+        <UsageCount Value="10"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="C:\typhon\components\pl_Graphics32\Source\GR32i_Backends.inc"/>
+        <UsageCount Value="10"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="C:\typhon\components\pl_Graphics32\Source\GR32i_LowLevel.inc"/>
+        <UsageCount Value="10"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Extern.inc"/>
+        <TopLine Value="536"/>
+        <CursorPos X="10" Y="559"/>
+        <UsageCount Value="10"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Extern_imp.inc"/>
+        <CursorPos X="20" Y="5"/>
+        <UsageCount Value="10"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Class.inc"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="10"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Class_imp.inc"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="10"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Code.inc"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="10"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Code_imp.inc"/>
+        <TopLine Value="5096"/>
+        <CursorPos X="5" Y="5117"/>
+        <UsageCount Value="10"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Parser.inc"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="10"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Parser_imp.inc"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="10"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Event.inc"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="10"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Event_imp.inc"/>
+        <TopLine Value="601"/>
+        <CursorPos Y="607"/>
+        <UsageCount Value="10"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_RegExp.inc"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="10"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_RegExp_imp.inc"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="10"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Conv.inc"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="10"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Conv_imp.inc"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="10"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_PascalParser.inc"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="10"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_PascalParser_imp.inc"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="10"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_JavaScript.inc"/>
+        <UsageCount Value="10"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_JavaScript_imp.inc"/>
+        <CursorPos X="28"/>
+        <UsageCount Value="10"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\Base_tScripter_Symbol_imp.inc"/>
+        <CursorPos X="29"/>
+        <UsageCount Value="10"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="C:\pp\rtl\inc\mathh.inc"/>
+        <TopLine Value="52"/>
+        <CursorPos X="14" Y="78"/>
+        <UsageCount Value="10"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\TitanScripter.pas"/>
+        <TopLine Value="1326"/>
+        <CursorPos Y="1349"/>
+        <UsageCount Value="10"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="C:\typhon\components\pl_TitanScript\source\TitanScript.inc"/>
+        <CursorPos X="15" Y="20"/>
+        <UsageCount Value="10"/>
+      </Unit88>
+      <Unit89>
+        <Filename Value="..\..\..\..\binMOD\typhon\components\pl_TitanScript\source\BASE_CALL.pas"/>
+        <TopLine Value="576"/>
+        <CursorPos X="16" Y="589"/>
+        <UsageCount Value="10"/>
+      </Unit89>
+      <Unit90>
+        <Filename Value="..\..\..\..\typhon\components\bs_Utils\fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <TopLine Value="51"/>
+        <CursorPos X="10" Y="72"/>
+        <UsageCount Value="10"/>
+      </Unit90>
+      <Unit91>
+        <Filename Value="..\..\tools\ImportProjects\system\allregsystem.pas"/>
+        <UsageCount Value="22"/>
+      </Unit91>
+      <Unit92>
+        <Filename Value="..\..\tools\ImportProjects\system\Controls_imp.pas"/>
+        <TopLine Value="1681"/>
+        <CursorPos X="5" Y="1698"/>
+        <UsageCount Value="10"/>
+      </Unit92>
+      <Unit93>
+        <Filename Value="..\..\tools\ImportProjects\system\ComCtrls_imp.pas"/>
+        <TopLine Value="1508"/>
+        <CursorPos X="6" Y="1526"/>
+        <UsageCount Value="10"/>
+      </Unit93>
+      <Unit94>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\inc\Base_tScripter_Class_imp.inc"/>
+        <TopLine Value="4293"/>
+        <CursorPos X="79" Y="4318"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit94>
+      <Unit95>
+        <Filename Value="..\..\..\..\typhon\components\bs_Utils\fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <TopLine Value="56"/>
+        <CursorPos X="10" Y="77"/>
+        <UsageCount Value="10"/>
+      </Unit95>
+      <Unit96>
+        <Filename Value="..\..\..\..\typhon\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <TopLine Value="1479"/>
+        <CursorPos X="14" Y="1491"/>
+        <UsageCount Value="10"/>
+      </Unit96>
+      <Unit97>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\inc\Base_tScripter_Class.inc"/>
+        <TopLine Value="4295"/>
+        <CursorPos Y="4310"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit97>
+      <Unit98>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\inc\Base_tScripter_Code.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1775"/>
+        <CursorPos X="18" Y="1784"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit98>
+      <Unit99>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\titanscripterbaseengine.pas"/>
+        <UnitName Value="TitanScripterBaseEngine"/>
+        <TopLine Value="82"/>
+        <CursorPos X="15" Y="109"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit99>
+      <Unit100>
+        <Filename Value="..\..\..\..\fpcsrc\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="723"/>
+        <CursorPos X="3" Y="714"/>
+        <UsageCount Value="10"/>
+      </Unit100>
+      <Unit101>
+        <Filename Value="system\allregsystem.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="21"/>
+      </Unit101>
+      <Unit102>
+        <Filename Value="system\GraphType_imp.pas"/>
+        <TopLine Value="82"/>
+        <CursorPos X="37" Y="51"/>
+        <UsageCount Value="10"/>
+      </Unit102>
+      <Unit103>
+        <Filename Value="system\Controls_imp.pas"/>
+        <TopLine Value="1677"/>
+        <CursorPos X="4" Y="1698"/>
+        <UsageCount Value="10"/>
+      </Unit103>
+      <Unit104>
+        <Filename Value="system\ComCtrls_imp.pas"/>
+        <TopLine Value="1018"/>
+        <CursorPos Y="1038"/>
+        <UsageCount Value="10"/>
+      </Unit104>
+      <Unit105>
+        <Filename Value="..\..\..\..\typhon\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <TopLine Value="1174"/>
+        <CursorPos X="14" Y="1178"/>
+        <UsageCount Value="10"/>
+      </Unit105>
+      <Unit106>
+        <Filename Value="..\..\..\..\typhon\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="145"/>
+        <CursorPos X="112" Y="149"/>
+        <UsageCount Value="10"/>
+      </Unit106>
+      <Unit107>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\inc\Base_tScripter_PascalParser.inc"/>
+        <TopLine Value="115"/>
+        <CursorPos Y="136"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit107>
+      <Unit108>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\inc\Base_tScripter_Event.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="207"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit108>
+      <Unit109>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\inc\Base_tScripter_Call.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="598"/>
+        <CursorPos X="11" Y="607"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit109>
+      <Unit110>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\base_engine.pas"/>
+        <UnitName Value="BASE_Engine"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="39211"/>
+        <CursorPos Y="39229"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit110>
+      <Unit111>
+        <Filename Value="..\ImportProjects\system\Controls_imp.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1892"/>
+        <CursorPos X="4" Y="1908"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit111>
+      <Unit112>
+        <Filename Value="..\ImportProjects\system\ComCtrls_imp.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1093"/>
+        <CursorPos X="48" Y="1118"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit112>
+      <Unit113>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\alltitanscripterregister.pas"/>
+        <UnitName Value="AllTitanScripterRegister"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit113>
+      <Unit114>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\titan_lfm.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="43" Y="72"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit114>
+      <Unit115>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\titan_import.pas"/>
+        <UnitName Value="Titan_Import"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit115>
+      <Unit116>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\titan_pascallanguage.pas"/>
+        <UnitName Value="Titan_PascalLanguage"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit116>
+      <Unit117>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\titan_pascalregfunctions.pas"/>
+        <UnitName Value="Titan_PascalRegFunctions"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit117>
+      <Unit118>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\imp_activex.pas"/>
+        <UnitName Value="IMP_ActiveX"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="583"/>
+        <CursorPos X="42" Y="622"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit118>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="..\ImportProjects\system\Controls_imp.pas"/>
+        <Caret Line="1087" Column="4" TopLine="1057"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\typhon\components\pl_TitanScript\source\base_engine.pas"/>
+        <Caret Line="39229" TopLine="39211"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\ImportProjects\system\ComCtrls_imp.pas"/>
+        <Caret Line="684" Column="55" TopLine="665"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\ImportProjects\system\Controls_imp.pas"/>
+        <Caret Line="1893" Column="3" TopLine="1865"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\ImportProjects\system\ComCtrls_imp.pas"/>
+        <Caret Line="64" Column="33" TopLine="37"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\ImportProjects\system\ComCtrls_imp.pas"/>
+        <Caret Line="1109" Column="4" TopLine="1082"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\ImportProjects\system\Controls_imp.pas"/>
+        <Caret Line="1906" Column="5" TopLine="1882"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\ImportProjects\system\ComCtrls_imp.pas"/>
+        <Caret Line="67" Column="7" TopLine="39"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\ImportProjects\system\ComCtrls_imp.pas"/>
+        <Caret Line="1118" Column="46" TopLine="1092"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\ImportProjects\system\Controls_imp.pas"/>
+        <Caret Line="1908" Column="4" TopLine="1892"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\ImportProjects\system\ComCtrls_imp.pas"/>
+        <Caret Line="67" Column="5" TopLine="39"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\ImportProjects\system"/>
+      <UnitOutputDirectory Value="..\xbin"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Title Value="plc_tft_designer"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <BuildModes Active="Default">
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes>
+        <Mode Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="\usr\bin\xterm -T &apos;Typhon Run Output&apos; -e $(TyphonDir)\tools\runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode>
+      </Modes>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="Python4CT"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_MagicScript"/>
+      </Item>
+      <Item>
+        <PackageName Value="bs_Controls"/>
+      </Item>
+      <Item>
+        <PackageName Value="bs_SynEdit"/>
+      </Item>
+      <Item>
+        <PackageName Value="lz_Industrial"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_JVCL"/>
+      </Item>
+      <Item>
+        <PackageName Value="lz_TPIPro"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_JujiboUtils"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_Cindy"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_Barcodes"/>
+      </Item>
+      <Item>
+        <PackageName Value="lz_taChart"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_BGRAcontrols"/>
+      </Item>
+      <Item>
+        <PackageName Value="bs_EnginesPlus"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_ColorLib"/>
+      </Item>
+      <Item>
+        <PackageName Value="lz_DateTimeCtrls"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_ExControls"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_exdesign"/>
+      </Item>
+      <Item>
+        <PackageName Value="adLCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="plc_tft_designer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <CursorPos X="78" Y="10"/>
+        <UsageCount Value="147"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <FRMtype Value="200"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="70"/>
+        <CursorPos X="45" Y="97"/>
+        <UsageCount Value="147"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\pl_ExDesign\samples\jvdesignsurface.pas"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <UsageCount Value="13"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\pl_ExDesign\samples\jvresources.pas"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="148"/>
+        <CursorPos X="17" Y="164"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\pl_ExDesign\bs_CodeTools\laz2_xmlwrite.pas"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="172"/>
+        <CursorPos X="25" Y="187"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\fpc\2.4.3\source\rtl\win32\system.pp"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="51"/>
+        <CursorPos X="3" Y="66"/>
+        <UsageCount Value="1"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\sw\laz_jvdesigner\mainunit.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="106"/>
+        <CursorPos Y="120"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\designer\controlselection.pp"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1252"/>
+        <CursorPos X="3" Y="1257"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\lcl\controls.pp"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1947"/>
+        <CursorPos X="15" Y="1733"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\fpc\2.4.3\source\packages\fcl-db\src\dbase\dbf_idxfile.pas"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1226"/>
+        <CursorPos X="31" Y="1236"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\pl_ExDesign\samples\jvdesignimp.pas"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <CursorPos Y="1481"/>
+        <FoldState Value=" T3:W24011j"/>
+        <UsageCount Value="14"/>
+        <Bookmarks Count="1">
+          <Item0 X="23" Y="363" ID="1"/>
+        </Bookmarks>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\pl_ExDesign\samples\jvdesignutils.pas"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <CursorPos X="86"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\CodeOcean\pl_ExDesign\samples\jvdesignclip.pas"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="24"/>
+        <CursorPos X="25" Y="2"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\lcl\include\customform.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="184"/>
+        <CursorPos Y="213"/>
+        <UsageCount Value="16"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\components\packages_pl\pl_ExDesign\source\ELDsgxSurface.pas"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="168"/>
+        <CursorPos X="3" Y="129"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="screenprops.pas"/>
+        <FRMtype Value="200"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmScreenProps"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="17" Y="30"/>
+        <UsageCount Value="130"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\lcl\stdctrls.pp"/>
+        <FRMtype Value="0"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1253"/>
+        <CursorPos X="32" Y="1267"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\components\packages_lz\lz_DateTimeCtrls\source\calendarlite.pas"/>
+        <FRMtype Value="0"/>
+        <UnitName Value="CalendarLite"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="85"/>
+        <CursorPos X="3" Y="202"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\lcl\lclclasses.pp"/>
+        <FRMtype Value="0"/>
+        <UnitName Value="LCLClasses"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <CursorPos X="24"/>
+        <UsageCount Value="19"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\components\packages_pl\pl_ExDesign\source\ELDsgxObjectInsp.pas"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <CursorPos X="5" Y="23"/>
+        <UsageCount Value="19"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\lcl\include\control.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3574"/>
+        <CursorPos Y="3599"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\lcl\comctrls.pp"/>
+        <FRMtype Value="0"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="html_edit.pas"/>
+        <FRMtype Value="200"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHTMLedit"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="HTML_edit"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <CursorPos X="14" Y="27"/>
+        <UsageCount Value="88"/>
+      </Unit>
+      <Unit>
+        <Filename Value="form_ide_main.pas"/>
+        <FRMtype Value="200"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmIDEmain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="417"/>
+        <CursorPos Y="459"/>
+        <UsageCount Value="86"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="lvgl_vcl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="370"/>
+        <CursorPos X="45" Y="398"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\lcl\include\statuspanels.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <CursorPos Y="28"/>
+        <UsageCount Value="12"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\fpcsrc\rtl\objpas\typinfo.pp"/>
+        <FRMtype Value="0"/>
+        <UnitName Value="TypInfo"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="738"/>
+        <CursorPos X="29" Y="787"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\lcl\forms.pp"/>
+        <FRMtype Value="0"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\lcl\include\lclintf.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="330"/>
+        <CursorPos Y="355"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\codetyphon\typhon\components\packages_pl\pl_MagicScript\source\mscoreengine.pas"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="55"/>
+        <CursorPos X="54" Y="74"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\CodeTyphonIns\components\Python-for-Lazarus-master\python4lazarus\PythonEngine.pas"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="84"/>
+        <CursorPos X="3" Y="76"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\CodeTyphonIns\components\Python-for-Lazarus-master\python4lazarus\python4lazarus_package.pas"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <CursorPos X="51" Y="12"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="17" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="191" Column="20" TopLine="159"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="361" Column="37" TopLine="342"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="400" Column="23" TopLine="381"/>
+      </Position>
+      <Position>
+        <Filename Value="form_ide_main.pas"/>
+        <Caret Line="16" Column="58" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="form_ide_main.pas"/>
+        <Caret Line="17" Column="58" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="130" Column="3" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="402" Column="22" TopLine="379"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="116" Column="9" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="130" Column="12" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="343" Column="19" TopLine="318"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="387" Column="77" TopLine="352"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="431" Column="23" TopLine="391"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="117" Column="9" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="406" Column="40" TopLine="382"/>
+      </Position>
+      <Position>
+        <Filename Value="form_ide_main.pas"/>
+        <Caret Line="17" Column="58"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="398" Column="53" TopLine="383"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="135" Column="3" TopLine="112"/>
+      </Position>
+      <Position>
+        <Filename Value="form_ide_main.pas"/>
+        <Caret Line="17" Column="58"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="421" Column="35" TopLine="407"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="133" Column="13" TopLine="118"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="141" Column="3" TopLine="118"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="420" Column="23" TopLine="380"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="452" Column="26" TopLine="411"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="135" Column="13" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="397" Column="20" TopLine="369"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="135" Column="13" TopLine="105"/>
+      </Position>
+      <Position>
+        <Filename Value="form_ide_main.pas"/>
+        <Caret Line="458" TopLine="416"/>
+      </Position>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="..\xbin"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
