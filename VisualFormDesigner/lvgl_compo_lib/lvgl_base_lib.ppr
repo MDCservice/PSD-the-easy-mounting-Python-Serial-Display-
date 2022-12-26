@@ -1,0 +1,19 @@
+library lvgl_base_lib;
+
+{$mode objfpc}{$H+}
+
+uses
+  Classes, lvgl_vcl, lz_tachart
+  { you can add units after this };
+
+
+// exports MUSS hier sein, wenn in units gibt es zwar keine Fehlermeldung, aber functionen werden nicht exportiert
+// testen mit "nm -D libname.so"
+exports
+    createCompInstance, demo;
+
+begin
+
+
+end.
+

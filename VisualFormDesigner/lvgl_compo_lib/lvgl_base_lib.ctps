@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="lvgl_base_lib.ppr"/>
+        <FRMtype Value="0"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <CursorPos X="25" Y="10"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="lvgl_vcl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="358"/>
+        <CursorPos X="58" Y="382"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="15" Column="49"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="16" Column="53"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="125" Column="14" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="300" Column="6" TopLine="294"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="327" Column="8" TopLine="300"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="346" Column="37" TopLine="318"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="337" Column="14" TopLine="316"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="341" Column="24" TopLine="312"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="337" Column="15" TopLine="311"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="335" Column="53" TopLine="311"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="342" Column="6" TopLine="313"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="86" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="322" Column="45" TopLine="322"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="120" Column="22" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="342" Column="62" TopLine="324"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="335" Column="28" TopLine="328"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="335" Column="42" TopLine="295"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="369" Column="23" TopLine="329"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="367" Column="34" TopLine="327"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="338" Column="59" TopLine="328"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="367" Column="44" TopLine="331"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="337" Column="6" TopLine="328"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="122" Column="13" TopLine="97"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="341" TopLine="316"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_base_lib.ppr"/>
+        <Caret Line="12" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_base_lib.ppr"/>
+        <Caret Line="10" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="338" TopLine="326"/>
+      </Position>
+      <Position>
+        <Filename Value="lvgl_vcl.pas"/>
+        <Caret Line="351" Column="53" TopLine="337"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
