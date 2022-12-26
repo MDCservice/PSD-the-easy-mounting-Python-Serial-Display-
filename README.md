@@ -1,7 +1,8 @@
 # PSD the-easy-mounting-Python-Serial-Display
 the easy mounting Python Serial Display, with 5-hole mounting, based on LVGL
 
-![7zoll](https://user-images.githubusercontent.com/96583658/209524720-63b1df3d-9ef1-4748-965f-33da3987b1bd.jpg)
+![7zoll2](https://user-images.githubusercontent.com/96583658/209567339-529f9711-2b8f-4095-b94b-52df2934b2fe.jpg)
+
 
 
 Here comes a new type of a "smart Display", with a revolutionary easy mounting concept, integrated uPython interpreter and serial UART interface.
